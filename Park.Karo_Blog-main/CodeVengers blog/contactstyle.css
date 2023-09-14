@@ -1,0 +1,12 @@
+.background{
+
+    background-image: url("../images/MacBook Air.png");
+    background-size: cover;
+    background-position: center;
+    width: 100vh;
+    border-radius: 12px;
+    height: 100vh;
+    margin-top: 32px;
+    padding: 9px
+    
+}
