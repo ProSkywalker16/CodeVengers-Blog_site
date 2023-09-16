@@ -12,54 +12,7 @@ body {
     background-color: #f2f2f2;
 }
 
-.navigation {
-   display: flex;
-   background-color:grey;       
-    color: white;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    border-radius: 1px;
-    height: 35px;
-}
-.background{
-    background: rgba(0,0,0,0.7) url('images/parking-lot.jpg');
-    background-size: cover;
-    background-blend-mode: darken;
-}
-.nav-left ul{
-    display: flex;
-    list-style: none;
-    transform: translateX(50%);
-}
 
-.nav-left ul li a{
-    margin-left: 55px;
-    text-decoration: none;
-    color: white;
-}
-.nav-left ul li a:hover{
-    color: #00baba;
-}
-.nav-right {
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-    text-align: left;
-    transform: translateX(-100%);
-}
-
-.describe{
-    margin-left: auto;
-}
-.bg-image{
-    background-image: url('images/parking-lot.jpg');
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
 main {
      width: auto;
     margin:  0px;
@@ -72,6 +25,59 @@ p{
     margin-left: 70px;
     margin-bottom: 0px;
 }
+
+footer{
+    margin-top: 5rem;
+}
+
+.navigation {
+    display: flex;
+    background-color:grey;       
+     color: white;
+     padding-left: 300px;
+     padding-right: 300px;
+     padding-top: 20px;
+     padding-bottom: 10px;
+     border-radius: 1px;
+     height: 35px;
+ }
+ .background{
+     background: rgba(0,0,0,0.7) url('images/parking-lot.jpg');
+     background-size: cover;
+     background-blend-mode: darken;
+ }
+ .nav-left ul{
+     display: flex;
+     list-style: none;
+     transform: translateX(50%);
+ }
+ 
+ .nav-left ul li a{
+     margin-left: 55px;
+     text-decoration: none;
+     color: white;
+ }
+ .nav-left ul li a:hover{
+     color: #00baba;
+ }
+ .nav-right {
+     font-size: 30px;
+     font-weight: bold;
+     color: white;
+     text-align: left;
+     transform: translateX(-100%);
+ }
+ 
+ .describe{
+     margin-left: auto;
+ }
+ .bg-image{
+     background-image: url('images/parking-lot.jpg');
+     background-size:cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+ }
 
 .blog-post {
     margin-bottom: 30px;
@@ -104,7 +110,8 @@ p{
 .big-font1{
     font-size: 30px;
     font-weight: bold;
-    margin-left: 70px;
+    /* margin-left: 70px; */
+    margin-bottom:2rem;
 }
 
 .block{
@@ -133,12 +140,17 @@ p{
     transform: translateY(150px);
 }
 .problem{
-    margin-top: 20px;
+    margin-top: 5rem;
+}
+
+.spacing{
+    margin-bottom:2rem
 }
 
 .big-font2{
     font-size: 24px;
     font-weight: bold;
+    margin-bottom:2rem;
 }
 
 
@@ -158,16 +170,42 @@ p{
     grid-gap: 20px;
 }
 
+
+
+
+
+/* .login-page p{
+
+} */
+
+.features{
+    line-height: 25px;
+    margin-bottom:2rem;
+
+}
+
+.login-page{
+    margin-top: 5rem;
+}
+
 .login-page-images{
     display: grid;
     grid-template-columns: repeat( auto-fit,minmax(200px, 1fr));
     grid-gap: 20px;
 }
 
+.home-page{
+    margin-top: 5rem;
+}
+
 .home-page-images{
         display: grid;
         grid-template-columns: repeat( auto-fit,minmax(200px, 1fr));
         grid-gap: 20px;
+}
+
+.payment-page{
+    margin-top: 5rem;
 }
 
 .payment-page-images{
@@ -177,4 +215,4 @@ p{
 }
 
 
-.descrition-paragraph{}
+
