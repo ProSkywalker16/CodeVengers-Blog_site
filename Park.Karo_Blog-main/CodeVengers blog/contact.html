@@ -6,6 +6,7 @@
     <title>Contact Us</title>
     <link rel="stylesheet" href="contactstyle.css">
     <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
     <nav class="navigation">
@@ -26,31 +27,28 @@
     <hr>
 </div>
 
-<main></main>
+<main>
+    
 <section class="bg-image ">
-    <section class="block">
- 
-    </section>
- 
-        <div class="contact-form">
+   
+    <div class="container">
+        <h2><span class="text-design">Contact Us</span></h2>
+        <form action="#" method="POST">
+            <label for="name"><span class="text-design">Name:</span></label>
+            <input type="text" id="name" name="name" placeholder="Example: Miles Herman" required>
             
-            <div class="form-box">
-                <input type="text" placeholder="Enter Your Name">
-            </div>
-            <div class="form-box">
-                <input type="text" placeholder="Enter Your Email Id">
-            </div>
-            <div class="form-box-text">
-                <textarea name="" id="" cols="30" rows="10" placeholder="How may we help you?"></textarea>
-            </div>
-            <div class="submit-button">
-                <button class="btn">Submit</button>
-            </div>
+            <label for="email"><span class="text-design">Email:</span></label>
+            <input type="text" id="email" name="email" placeholder="Example: mogow43394@tenjb.com" required>
+            
+            <label for="message"><span class="text-design">Message:</span></label>
+            <textarea id="message" name="message" placeholder="Please Explain Your Problem" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
 
-        </div>
-    </section>
-
-
+</main>
 
     <footer>
         <span class="nav-left">
