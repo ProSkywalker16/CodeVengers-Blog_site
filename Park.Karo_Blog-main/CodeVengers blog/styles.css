@@ -1,7 +1,8 @@
-* Reset some default styles */
+
 html{
     scroll-behavior: smooth;
     }
+
 body, p {
     margin: 0;
     padding: 0;
@@ -9,16 +10,24 @@ body, p {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #353535;
+    color: #fff;
+    margin: 8px 8px 8px 8px;
+    overflow-x: hidden;
 }
 
 
 main {
-     width: auto;
-    margin:  0px;
+     /* width: auto;
+     margin:  0px; 
+    background-color: rgba(255, 255, 255, 0.646); */
     padding: 0px;
-    /*background-color: rgba(255, 255, 255, 0.646);*/
-    background-color: rgba(255,255,255,0);
+    margin-top: 50px;
+}
+
+.information{
+    margin-right: 70px;
+    text-align: justify;
 }
 
 p{
@@ -32,8 +41,8 @@ footer{
 
 .navigation {
     display: flex;
-    background-color:grey;       
-     color: white;
+    background: linear-gradient(to right,#ffa41b, #00b400);    
+     color: #fff;
      padding-left: 300px;
      padding-right: 300px;
      padding-top: 20px;
@@ -41,11 +50,12 @@ footer{
      border-radius: 1px;
      height: 35px;
  }
- .background{
+
+ /* .background{
      background: rgba(0,0,0,0.7) url('images/parking-lot.jpg');
      background-size: cover;
      background-blend-mode: darken;
- }
+ } */
  .nav-left ul{
      display: flex;
      list-style: none;
@@ -55,28 +65,28 @@ footer{
  .nav-left ul li a{
      margin-left: 55px;
      text-decoration: none;
-     color: white;
+     color: #fff;
  }
+
  .nav-left ul li a:hover{
      color: #00baba;
  }
+
  .nav-right {
      font-size: 30px;
      font-weight: bold;
-     color: white;
+     color: #fff;
      text-align: left;
      transform: translateX(-100%);
  }
  
- .describe{
-     margin-left: auto;
- }
  .bg-image{
-     background-image: url('images/parking-lot.jpg');
+     background-image: url('images/parking-lot.png');
      background-size:cover;
      background-repeat: no-repeat;
      background-attachment: fixed;
      background-position: center;
+     height: 100vh;
  }
 
 .blog-post {
@@ -93,15 +103,11 @@ footer{
 }
 
 
-/*.logo{
-    width: 170px;
-    height: 150px;
-}*/
-
 .project-name {
     width: 100%;
     height: 50%;
 }
+
 .garage {
     width: 100%;
     height: auto;
@@ -121,15 +127,18 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
 .first-half{
     transform: translateY(30px);
 }
+
 .second-half{
     transform: translateY(-30px);
     font-weight: bolder;
     color: white;
     padding-bottom: 30px;
 }
+
 .third-half{
     display: flex;
     height: 250px;
@@ -139,6 +148,7 @@ footer{
     width: 250px;
     transform: translateY(150px);
 }
+
 .problem{
     margin-top: 5rem;
 }
@@ -172,14 +182,8 @@ footer{
 
 
 
-
-
-/* .login-page p{
-
-} */
-
 .features{
-    line-height: 25px;
+    
     margin-bottom:2rem;
 
 }
@@ -215,4 +219,14 @@ footer{
 }
 
 
+.intro{
+    line-height: 25px;
+}
 
+footer{
+    margin-top: 50px;
+}
+
+footer p{
+    color: #fff;
+}
