@@ -1,12 +1,111 @@
-.background{
+body{
+    background-color: #353535;
+} 
 
-    background-image: url("../images/MacBook Air.png");
-    background-size: cover;
+main{
+    margin-top: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* .bg-image{
+    background-image: url('images/parking-lot.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
-    width: 100vh;
-    border-radius: 12px;
     height: 100vh;
-    margin-top: 32px;
-    padding: 9px
-    
+} */
+
+/* .navigation {
+    display: flex;
+    background: linear-gradient(to right,#ffa41b, #00b400);        
+     color: #fff;
+     padding-left: 300px;
+     padding-right: 300px;
+     padding-top: 20px;
+     padding-bottom: 10px;
+     border-radius: 1px;
+     height: 35px;
+ } */
+ 
+ /* .nav-left ul{
+     display: flex;
+     list-style: none;
+     transform: translateX(50%);
+ }
+ 
+ .nav-left ul li a{
+     margin-left: 55px;
+     text-decoration: none;
+     color: #fff;
+ }
+ .nav-left ul li a:hover{
+     color: #00baba;
+ }
+ .nav-right {
+     font-size: 30px;
+     font-weight: bold;
+     color: #fff;
+     text-align: left;
+     transform: translateX(-100%);
+ } */
+
+ label, h2 {
+    display: block;
+    margin-bottom: 10px;
+    /* font-weight: bold; */
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.692);;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.692);
+    font-size: 16px;
+}
+textarea {
+    height: 150px;
+}
+button {
+    background-color: #ffa41b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00baba;
+}
+
+::placeholder {
+    color: #353535;
+  opacity: 0.8;
+}
+
+
+footer{
+    margin-top: 50px;
+}
+
+footer p{
+    color: #fff;
 }
